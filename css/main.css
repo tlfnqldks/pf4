@@ -1,0 +1,300 @@
+main{
+
+  height: 100%;
+}
+main #introduction{
+  padding-bottom: 40px;
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1070px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+main #introduction .wrap{
+
+  position: relative;
+}
+main #introduction h1{
+
+  position: absolute;
+  z-index: 1;
+}
+main #introduction h1 a{
+  width: 500px;
+  font-size: 76px;
+  display: inline-block;
+  padding-left: 80px;
+  color: white;
+  font-weight: bold;
+  padding-top: 60px;
+  transition: all 0.7s;
+}
+main #introduction ul{
+  display: flex;
+  text-align: center;
+}
+main #introduction ul li{
+  width: 25%;
+  background-color: #eee;
+}
+main #introduction ul li:nth-child(1){
+  background: url(../img/public.png);
+  background-position: center 43%;
+  background-repeat: no-repeat;
+  background-size: 36%;
+  transition: all 0.5s;
+}
+main #introduction ul li:nth-child(2){
+  background: url(../img/info.png);
+  background-position: center 43%;
+  background-repeat: no-repeat;
+  background-size: 36%;
+  transition: all 0.5s;
+}
+main #introduction ul li:nth-child(3){
+  background: url(../img/glass.png);
+  background-position: center 43%;
+  background-repeat: no-repeat;
+  background-size: 36%;
+  transition: all 0.5s;
+}
+main #introduction ul li:nth-child(4){
+  background: url(../img/tree.png);
+  background-position: center 43%;
+  background-repeat: no-repeat;
+  background-size: 36%;
+  transition: all 0.5s;
+}
+main #introduction ul li:nth-child(1):hover{
+  background-size: 20%;
+  background-position-y: 38%;
+}
+main #introduction ul li:nth-child(2):hover{
+  background-size: 20%;
+  background-position-y: 38%;
+}
+main #introduction ul li:nth-child(3):hover{
+  background-size: 20%;
+  background-position-y: 38%;
+}
+main #introduction ul li:nth-child(4):hover{
+  background-size: 20%;
+  background-position-y: 38%;
+}
+main #introduction ul li a{
+  display: block;
+  position: relative;
+  height: 1070px;
+  box-sizing: border-box;
+  padding-top: 170px;
+  transition: all 0.5s;
+  color: white;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+main #introduction ul li:nth-child(1) a:hover{
+  background: radial-gradient( #bcced836 100%, #bcced8 100%);
+  padding-top: 80px;
+  color: white;
+  background-size: 20% !important;
+}
+main #introduction ul li:nth-child(2) a:hover{
+  background: radial-gradient( #bcced836 100%, #bcced8 100%);
+  padding-top: 80px;
+  color: white;
+  background-size: 20% !important;
+}
+main #introduction ul li:nth-child(3) a:hover{
+  background: radial-gradient( #bcced836 100%, #bcced8 100%);
+  padding-top: 80px;
+  color: white;
+  background-size: 20% !important;
+}
+main #introduction ul li:nth-child(4) a:hover{
+  background: radial-gradient( #bcced836 100%, #bcced8 100%);
+  padding-top: 80px;
+  color: white;
+  background-size: 20% !important;
+}
+main #introduction ul li a:hover p{
+  display: block;
+  color: white;
+  margin-top:30px;
+  font-size: 20px;
+}
+main #introduction ul li a h3{
+  
+}
+main #introduction ul li a p{
+  font-size: 12px;
+  line-height: 1.3;
+  
+  transition: all 0.5s;
+}
+main #introduction ul li a::before{
+  content: "";
+  display: block;
+  width: 24px;
+  margin: 0 auto;
+  padding-top: 2px;
+  height: 3px;
+  margin-bottom: 390px;
+  transition: all 0.5s;
+}
+main #introduction ul li a:hover::before{
+  transform: translateY(444px);
+  background-color: white;
+}
+main #introduction .Sc {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  width: 83px;
+  font-size: 20px;
+  left: calc((100% - 83px) / 2);
+  bottom: 60px;
+}
+
+/* 사회공원 */
+#society{
+  padding-bottom: 40px;
+  background-image: url(../img/main2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1070px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#society .wrap{
+  position: relative;
+}
+#society h1{
+
+  position: absolute;
+  z-index: 999;
+}
+#society h1 a{
+  width: 500px;
+  font-size: 76px;
+  display: inline-block;
+  padding-left: 80px;
+  color: white;
+  font-weight: bold;
+  padding-top: 60px;
+  transition: all 0.7s;
+}
+#society h2{
+  font-size: 50px;
+  position: relative;
+  top: 230px;
+  color: white;
+  left: 80px;
+}
+#society h2+p{
+  float: left;
+  width: 50%;
+  line-height: 1.5;
+  margin-top: 20px;
+  color: #555;
+}
+#society ul{
+  position: relative;
+  padding-top: 300px;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#society ul li{
+
+  padding: 0 50px;
+}
+#society ul li:nth-child(1){
+}
+#society ul li:nth-child(2){
+  width:30%;
+}
+#society ul li:nth-child(3){
+  width:30%;
+}
+#society ul li a{
+
+  color: white;
+}
+#society ul li:nth-child(1) a{
+  display: block;
+}
+#society ul li:nth-child(1) a::before{
+  content: "";
+  background-image: url(../img/so1.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 13px;
+  background-position: center;
+}
+#society ul li:nth-child(2) a::before{
+  content: "";
+  background-image: url(../img/so2.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 13px;
+  background-position: center;
+}
+#society ul li:nth-child(3) a::before{
+  content: "";
+  background-image: url(../img/so3.jpg);
+  display: block;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 13px;
+  background-position: center;
+}
+#society ul li a h3{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  font-weight: bold;
+}
+#society ul li a p{
+  color: white;
+  font-weight: bold;
+}
+#society a.more{
+
+  position: absolute;
+  right: 29px;
+  bottom: 26px;
+  font-size: 0;
+}
+#society a.more::after{
+  content: "+";
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: 22px;
+}
+#society a.more:hover::after {
+  color: blue;
+}
+#society .Sc{
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  width: 83px;
+  font-size: 20px;
+  left: calc((100% - 83px) / 2);
+  bottom: 60px;
+}

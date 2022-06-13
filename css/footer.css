@@ -1,0 +1,56 @@
+footer{
+  background-color: #eee;
+  padding: 35px 15px;
+}
+footer .wrap{
+  margin: 0 auto;
+  height: 150px;
+  overflow: hidden;
+}
+footer ul.fnb{
+    
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  float: left;
+  color: #333;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+footer ul.fnb li{
+    
+}
+footer ul.fnb li a{
+    
+}
+footer address{
+
+  font-size: 14px;
+  line-height: 1.5;
+  display: block;
+  color: #777;
+  float: left;
+}
+footer select{
+
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  background-color: #eeeff1;
+  float: right;
+  -moz-appearance: none;
+  padding-top: 50px;
+}
+footer select option{
+
+}
+footer p.copyright{
+    
+  margin-top: 50px;
+  font-size: 14px;
+  color: #777;
+  clear: both;
+  border-top: 1px solid #999;
+  padding-top: 20px;
+}
